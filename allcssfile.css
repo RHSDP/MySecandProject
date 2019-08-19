@@ -1,9 +1,9 @@
 .headerSection{
-
+    background: rgb(34, 25, 43);
     background-image: url("images/ريم.jpg");
+    opacity: 1;
     background-position: center;
-    opacity: 0.8;
-    height: 300px;
+    height: 390px;
     width: 100%;
     border-radius: 30px; 
 
@@ -17,10 +17,15 @@
      
 }
 
-#ulHeader li{
+#ulHeader li {
     display: inline;
     padding: 20px;
     color: aliceblue;
+}
+
+#ulHeader li a{
+    color: aliceblue;
+    
 }
 
 #searchSeaction{
@@ -41,9 +46,48 @@
 }
 #but-header{
    margin-left: 200px; 
-   margin-top: 30px; 
+   margin-top: 70px; 
     width: 190px;
     border-radius: 20px;  
-     background: rgb(226, 224, 228);
+    background: rgb(226, 224, 228);
      opacity: 0.5;
+}
+/* the end of header styles */
+
+.thirdConter{
+    margin-top: 60px; 
+   background: rgb(225, 217, 233);
+    height: 230px;
+}
+
+.pThird{
+    float: right;
+    width: 60%;
+    margin-top: 50px;
+   
+    padding: 10px;
+  
+    
+}
+
+.imgThirdConternt{
+   margin-left: 20px;
+    margin-top: 30px;
+   padding-bottom: 10px;
+    width:32%;
+   
+    float: left;
+}
+#secanI{
+    float: right;
+    margin-right: 30px; 
+}
+#secanP{
+    float: left;
+}
+
+/* end of seaction tow style */
+
+#card-columns-content{
+    margin-top: 50px;
 }
