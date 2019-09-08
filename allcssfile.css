@@ -1,15 +1,18 @@
+
+
 .headerSection{
     background: rgb(34, 25, 43);
     background-image: url("images/ريم.jpg");
-    opacity: 1;
+    opacity: 0.9;
     background-position: center;
     height: 390px;
     width: 100%;
-    border-radius: 30px; 
+   border-bottom-right-radius: 40px;
+   border-bottom-left-radius: 40px;
 
 }
 
-#ulHeader{
+.ulHeader{
     list-style-type: none;
     float: right;
    margin-right: 70px; 
@@ -17,13 +20,13 @@
      
 }
 
-#ulHeader li {
+.ulHeader li {
     display: inline;
     padding: 20px;
     color: aliceblue;
 }
 
-#ulHeader li a{
+.ulHeader li a{
     color: aliceblue;
     
 }
@@ -54,10 +57,30 @@
 }
 /* the end of header styles */
 
+/*start of 1 seaction*/
+
+#containerFirst{
+    margin-top: 30px;
+}
+.seacrionTowUl li{
+       display: inline-block;
+        list-style-type: none;
+       padding-right: 10px;
+}
+
+
+/*end of 1 seaction*/
+
+/* start of 2 seaction */
 .thirdConter{
     margin-top: 60px; 
    background: rgb(225, 217, 233);
     height: 230px;
+}
+
+.thechang{
+    background: white;
+    
 }
 
 .pThird{
@@ -88,6 +111,81 @@
 
 /* end of seaction tow style */
 
-#card-columns-content{
-    margin-top: 50px;
+/* start of 4 seaction */
+
+#containerI{
+       
+        
+        margin-top:30px;
+        background-image: url("images/view.jpg");
+        
+       
 }
+#card-columns-content{
+    margin-top: 10px;
+   
+}
+
+/* end of 4 seaction */
+
+/* srart of 5 seaction */
+
+
+.seaction5{
+    background: rgb(225, 217, 233);
+    margin-top: 10px;
+    
+
+}
+
+.seaction5 h1{
+    color: blue;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.seaction5Image img{
+    padding: 30px;
+    filter: grayscale(1.4)
+   
+}
+
+.seaction5Image img:hover{
+   transition: 1ms;
+   filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+
+
+/*end of 5 seaction */
+
+/*start of footer seaction */
+
+.fooderSection{
+    background: rgb(34, 25, 43);
+    margin-top: 7px;
+    height: 190px;
+    width: 100%;
+    float: left;
+   
+
+
+}
+
+#ulFooter{
+    float: left;
+    margin-top: 27px;
+    margin-left: 90px; 
+    
+    padding: 60px;
+}
+
+.vl {
+    border-left: 2px solid rgb(184, 194, 184);
+    height: 120px;
+    position: absolute;
+    left: 60%;
+    margin-left: 90px;
+    margin-top: 50px;
+  }
